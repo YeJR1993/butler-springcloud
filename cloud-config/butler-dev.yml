@@ -1,1 +1,7 @@
-name: dev
+eureka:
+    instance:
+        hostname: 127.0.0.1
+    client:
+        # 注册中心地址
+        service-url:
+            defaultZone: http://127.0.0.1:8761/eureka/
