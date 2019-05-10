@@ -14,7 +14,7 @@ spring:
                     # 配置仓库路径，这里是文件夹搜索路径
                     searchPaths: cloud-config
                     # git仓库的用户名和密码，如果是public仓库，可以不写
-#                    username: ***
-#                    password: ***
+                    username: YeJR1993
+                    password: ye13615248452
                     # 指定分支，不指定默认是master
                     default-label: master
