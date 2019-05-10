@@ -1,0 +1,98 @@
+server:
+    port: 8201
+
+
+eureka:
+    instance:
+        hostname: 127.0.0.1
+    client:
+        # 注册中心地址
+        service-url:
+            defaultZone: http://127.0.0.1:8761/eureka/
+
+spring:
+    application:
+        name: system-server
+    # 数据库配置
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/butler-dubbo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+        username: root
+        password: ENC(5vNBfOl28xrSEj1kYIJROw==)
+        driver-class-name: com.mysql.cj.jdbc.Driver # 使用最新的驱动，需要在url中添加serverTimezone
+        type: com.alibaba.druid.pool.DruidDataSource
+    # redis配置
+    redis:
+        # 地址
+        host: 192.168.56.101
+        # 端口
+        port: 6379
+        # 密码
+        password: 123456
+        # 连接超时
+        timeout: 60000
+        # 连接池
+        jedis:
+            pool:
+                # 连接池最大连接数（使用负值表示没有限制）
+                max-active: 8
+                # # 连接池最大阻塞等待时间（使用负值表示没有限制）
+                max-wait: -1
+                # # 连接池中的最大空闲连接
+                max-idle: 8
+                # # 连接池中的最小空闲连接
+                min-idle: 0
+
+# mybatis配置
+mybatis:
+    # xml所在的位置
+    mapper-locations: classpath:mappings/*/*/*.xml
+    # entity扫描的包名
+    type-aliases-package: com.tuxiaoer.shanghai.modules.*
+    configuration:
+        # 全局地开启或关闭配置文件中的所有映射器已经配置的任何缓存
+        cache-enabled: true
+        # 缓存一个会话中执行的所有查询
+        local-cache-scope: session
+        # 全局启用或禁用延迟加载。当禁用时，所有关联对象都会即时加载， 这里需要false 不然api 接口collection 加载不了
+        lazy-loading-enabled: false
+        # 有延迟加载属性的对象在被调用时将会完全加载任意属性。否则，每种属性将会按需要加载
+        aggressive-lazy-loading: false
+        # 是否允许单条sql 返回多个数据集  (取决于驱动的兼容性) default:true
+        multiple-result-sets-enabled: true
+        # 是否可以使用列的别名 (取决于驱动的兼容性) default:true
+        use-column-label: true
+        # 允许JDBC 生成主键。需要驱动器支持。如果设为了true，这个设置将强制使用被生成的主键，有一些驱动器不兼容不过仍然可以执行。  default:false
+        use-generated-keys: false
+        # 指定 MyBatis 如何自动映射 数据基表的列 NONE：不隐射　PARTIAL:部分  FULL:全部
+        auto-mapping-behavior: partial
+        # 默认的执行类型  （SIMPLE: 简单； REUSE: 执行器可能重复使用prepared statements语句；BATCH: 执行器可以重复执行语句和批量更新）
+        default-executor-type: simple
+        # 解决，查询返回结果含null没有对应字段值问题
+        call-setters-on-nulls: true
+        # 设置超时时间，它决定驱动等待数据库响应的秒数。
+        default-statement-timeout: 25
+        # 为驱动的结果集获取数量（fetchSize）设置一个提示值。此参数只可以在查询设置中被覆盖。
+        default-fetch-size: 100
+        # 允许在嵌套语句中使用分页（RowBounds）。如果允许使用则设置为false。
+        safe-row-bounds-enabled: false
+        # 使用驼峰命名法转换字段
+        map-underscore-to-camel-case: true
+        # 默认为OTHER,为了解决oracle插入null报错的问题要设置为NULL
+        jdbc-type-for-null: null
+        # 指定哪个对象的方法触发一次延迟加载
+        lazy-load-trigger-methods: [equals,clone,hashCode,toString]
+        # 指定 MyBatis 所用日志的具体实现
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+# pagehelper 分页插件配置
+pagehelper:
+    helper-dialect: mysql
+    reasonable: true
+    support-methods-arguments: true
+    params: count=countSql
+
+# 项目数据库加密配置(密钥)
+jasypt:
+    encryptor:
+        password: 1Q2w3e4r5t6y7u8i9o0P!@

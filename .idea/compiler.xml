@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="butler-app" />
+        <module name="butler-eureka" />
+        <module name="butler-common" />
+        <module name="butler-system-server" />
+        <module name="butler-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="butler-admin" target="1.8" />
+      <module name="butler-app" target="1.8" />
+      <module name="butler-common" target="1.8" />
+      <module name="butler-eureka" target="1.8" />
+      <module name="butler-springcloud" target="1.8" />
+      <module name="butler-system-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
