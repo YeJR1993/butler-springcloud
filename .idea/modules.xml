@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/butler-admin/butler-admin.iml" filepath="$PROJECT_DIR$/butler-admin/butler-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/butler-app/butler-app.iml" filepath="$PROJECT_DIR$/butler-app/butler-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/butler-common/butler-common.iml" filepath="$PROJECT_DIR$/butler-common/butler-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butler-config-server/butler-config-server.iml" filepath="$PROJECT_DIR$/butler-config-server/butler-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/butler-eureka/butler-eureka.iml" filepath="$PROJECT_DIR$/butler-eureka/butler-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/butler-springcloud.iml" filepath="$PROJECT_DIR$/butler-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/butler-springcloud.iml" filepath="$PROJECT_DIR$/butler-springcloud.iml" />

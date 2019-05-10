@@ -15,6 +15,7 @@
         <module>butler-app</module>
         <module>butler-admin</module>
         <module>butler-system-server</module>
+        <module>butler-config-server</module>
     </modules>
 
     <properties>
