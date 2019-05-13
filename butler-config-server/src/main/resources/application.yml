@@ -13,3 +13,5 @@ spring:
                     uri: https://github.com/YeJR1993/butler-springcloud
                     # 配置仓库路径，这里是文件夹搜索路径
                     searchPaths: cloud-config
+                    # 默认分支
+                    default-label: dev

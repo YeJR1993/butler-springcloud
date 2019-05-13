@@ -5,3 +5,13 @@ eureka:
         # 注册中心地址
         service-url:
             defaultZone: http://127.0.0.1:8761/eureka/
+
+#ribbon的超时时间
+ribbon:
+    ReadTimeout: 30000
+    ConnectTimeout: 30000
+
+# 开启断路器
+feign:
+    hystrix:
+        enabled: true
