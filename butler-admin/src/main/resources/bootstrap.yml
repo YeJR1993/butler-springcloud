@@ -1,0 +1,9 @@
+#这里使用的是 bootstrap.yml 这个配置，bootstrap的优先级高于application，很多配置都是要在服务启动前加载，
+#所以使用bootstrap
+spring:
+    cloud:
+        config:
+            #启动什么环境下的配置
+            profile: dev
+            # 配置服务的URL
+            uri: http://127.0.0.1:8301/
