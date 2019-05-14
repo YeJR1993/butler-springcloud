@@ -4,6 +4,7 @@ import com.github.pagehelper.PageInfo;
 import com.tuxiaoer.shanghai.common.utils.Result;
 import com.tuxiaoer.shanghai.modules.system.entity.User;
 import com.tuxiaoer.shanghai.modules.system.feignclient.UserFeignService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

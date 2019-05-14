@@ -9,9 +9,9 @@ spring:
         config:
             server:
                 git:
-                    #git仓库的地址
-                    uri: https://github.com/YeJR1993/butler-springcloud
+                    #git仓库的地址, 由于git的网络原因，这里使用gitee
+                    uri: https://gitee.com/yejiarong/butler-springcloud.git
                     # 配置仓库路径，这里是文件夹搜索路径
                     searchPaths: cloud-config
                     # 默认分支
-                    default-label: dev
+                    default-label: master
