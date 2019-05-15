@@ -1,6 +1,6 @@
 # 端口
 server:
-   port: 8001
+   port: 8084
 
 # redis配置
 spring:

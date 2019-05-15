@@ -1,23 +1,572 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aba5fe5-665a-4230-a185-896c818c1f04" name="Default Changelist" comment="config server">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2aba5fe5-665a-4230-a185-896c818c1f04" name="Default Changelist" comment="config server 以及client 配置成功">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-admin/butler-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-admin/butler-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-admin/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-app/butler-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-app/butler-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-app/src/main/java/com/tuxiaoer/shanghai/modules/system/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/butler-app/src/main/java/com/tuxiaoer/shanghai/modules/system/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/butler-admin-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/butler-admin-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/AdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/config/FreeMarkerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/config/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/excel/ExportExcel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/excel/ExportExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/handler/DateConverterHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/handler/ErrorExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/persistence/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/shiro/LoginToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/shiro/MyShiroRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/shiro/ShiroRedisCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/shiro/ShiroRedisCacheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/shiro/ShiroRedisSessionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/common/tag/MenuTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/modules/system/web/BaseErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/modules/system/web/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/modules/system/web/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/modules/system/web/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/modules/system/web/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/com/tuxiaoer/shanghai/modules/system/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/bootstrap/versions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/adapters/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/build-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/ckeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/contents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/es-mx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/oc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/about/dialogs/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/colordialog/dialogs/colordialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/colordialog/dialogs/colordialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/copyformatting/cursors/cursor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/copyformatting/styles/copyformatting.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/dialog/dialogDefinition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/div/dialogs/div.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/find/dialogs/find.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/flash/dialogs/flash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/flash/images/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/hiddenfield.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/dialogs/textfield.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/forms/images/hiddenfield.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/iframe/dialogs/iframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/iframe/images/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/image/dialogs/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/image/images/noimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/link/dialogs/anchor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/link/dialogs/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/link/images/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/liststyle/dialogs/liststyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/magicline/images/icon-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/pagebreak/images/pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/pastefromword/filter/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/preview/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/scayt/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/scayt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/scayt/dialogs/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/scayt/dialogs/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_blockquote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_div.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_h1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_h2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_h3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_h4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_h5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_h6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/showblocks/images/block_pre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/dialogs/smiley.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/angel_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/angel_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/angry_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/angry_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/broken_heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/broken_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/confused_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/confused_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/cry_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/cry_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/devil_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/devil_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/embaressed_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/embarrassed_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/embarrassed_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/envelope.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/kiss.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/kiss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/lightbulb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/lightbulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/omg_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/omg_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/regular_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/regular_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/sad_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/sad_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/shades_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/shades_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/teeth_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/teeth_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/thumbs_down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/thumbs_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/thumbs_up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/thumbs_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/tongue_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/tongue_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/tounge_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/wink_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/smiley/images/wink_smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/oc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/table/dialogs/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/tableselection/styles/tableselection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/templates/dialogs/templates.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/templates/dialogs/templates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/templates/templates/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/templates/templates/images/template1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/templates/templates/images/template2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/templates/templates/images/template3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/widget/images/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/dialog_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/dialog_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/dialog_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/editor_gecko.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/editor_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/editor_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/editor_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/hidpi/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/hidpi/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/images/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/skins/moono-lisa/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ckeditor/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/amazeui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/css/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/fonts/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/img/user01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/img/user02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/img/user03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/img/yejr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/js/amazeui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/common/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/laydate/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/laydate/theme/default/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/laydate/theme/default/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/laydate/theme/default/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/laydate/theme/default/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/laydate/theme/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/laydate/versions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/theme/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/theme/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/theme/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/theme/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/theme/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/theme/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/layer/versions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/treetable/css/jquery.treetable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/treetable/css/jquery.treetable.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/treetable/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/treetable/js/jquery.treetable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/validation/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/validation/versions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/css/uploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/css/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/js/Uploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/js/expressInstall.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/js/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/js/uploadConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/js/webuploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/webuploader/versions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/css/bootstrapStyle/bootstrapStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/css/bootstrapStyle/img/bootstrap.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/css/bootstrapStyle/img/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/css/bootstrapStyle/img/line_conn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/css/bootstrapStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery-1.4.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.excheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.excheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.exedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.exedit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.exhide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/js/jquery.ztree.exhide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/static/ztree/versions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/error/403.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/error/500.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/include/head.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/include/treeTable.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/include/webuploader.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/include/zTree.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/global/upload.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/menuForm.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/menuList.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/menuSelect.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/roleAuth.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/roleForm.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/roleList.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/userForm.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/classes/templates/modules/system/userList.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-app/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-app/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-app/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-app/target/classes/com/tuxiaoer/shanghai/modules/system/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/butler-app/target/classes/com/tuxiaoer/shanghai/modules/system/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/butler-app-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/butler-app-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/classes/com/tuxiaoer/shanghai/AppApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/classes/com/tuxiaoer/shanghai/modules/system/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/butler-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/config/BeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/config/RedisJedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/constant/SystemConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/constant/TimeConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/excel/ExcelField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/excel/Reflections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/exception/GlobalException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/exception/LoginException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/redis/JedisUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/redis/rediskey/BasePrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/redis/rediskey/KeyPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/redis/rediskey/SysModules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/utils/CodeMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/utils/DateTimeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/utils/PageInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/utils/RandomValidateCodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/utils/SpringContextHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/common/utils/UserUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/dao/MenuDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/dao/RoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/entity/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/feignclient/MenuFeignService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/feignclient/RoleFeignService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/feignclient/UserFeignService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/hystrix/MenuServiceHystrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/hystrix/RoleServiceHystrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/hystrix/UserServiceHystrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/service/MenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/com/tuxiaoer/shanghai/modules/system/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/mappings/modules/system/MenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/mappings/modules/system/RoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/classes/mappings/modules/system/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-system-server/butler-system-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-system-server/butler-system-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-system-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-system-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/target/butler-eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/target/butler-eureka-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/target/classes/com/tuxiaoer/shanghai/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-system-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/butler-system-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/butler-system-server-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/com/tuxiaoer/shanghai/SystemServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/com/tuxiaoer/shanghai/modules/system/service/impl/MenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/com/tuxiaoer/shanghai/modules/system/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/com/tuxiaoer/shanghai/modules/system/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/com/tuxiaoer/shanghai/modules/system/web/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/com/tuxiaoer/shanghai/modules/system/web/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/classes/com/tuxiaoer/shanghai/modules/system/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config/butler-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/butler-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,10 +588,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="168">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -50,17 +626,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="168">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -68,35 +635,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="21">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/butler-app/pom.xml">
+        <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="168">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/butler-admin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-config/butler-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/butler-system-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            <state relative-caret-position="336">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -109,6 +676,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8301</find>
+      <find>8761</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,19 +724,19 @@
         <option value="$PROJECT_DIR$/butler-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/butler-config-server/src/main/java/com/tuxiaoer/shanghai/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/butler-common/pom.xml" />
-        <option value="$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/butler-admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/butler-dev.yml" />
-        <option value="$PROJECT_DIR$/butler-app/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/butler-app/pom.xml" />
         <option value="$PROJECT_DIR$/butler-admin/pom.xml" />
         <option value="$PROJECT_DIR$/butler-app/src/main/java/com/tuxiaoer/shanghai/modules/system/web/UserController.java" />
-        <option value="$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/butler-system-server/pom.xml" />
+        <option value="$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config/butler-dev.yml" />
+        <option value="$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/butler-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/butler-app/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -180,26 +753,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="butler-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="butler-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="butler-springcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="butler-springcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="754" />
-    <option name="y" value="53" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="306" />
+    <option name="y" value="30" />
+    <option name="width" value="1589" />
+    <option name="height" value="1068" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -210,6 +779,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,145 +787,10 @@
               <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tuxiaoer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tuxiaoer" type="462c0819:PsiDirectoryNode" />
-              <item name="shanghai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tuxiaoer" type="462c0819:PsiDirectoryNode" />
-              <item name="shanghai" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tuxiaoer" type="462c0819:PsiDirectoryNode" />
-              <item name="shanghai" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tuxiaoer" type="462c0819:PsiDirectoryNode" />
-              <item name="shanghai" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-system-server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,7 +832,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.22889611" />
+    <option name="contentProportion" value="0.16179654" />
   </component>
   <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -469,6 +904,7 @@
       <workItem from="1557716903743" duration="1174000" />
       <workItem from="1557741811596" duration="4000" />
       <workItem from="1557796049414" duration="658000" />
+      <workItem from="1557908743397" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="config server">
       <created>1557474246342</created>
@@ -495,22 +931,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11264000" />
+    <option name="totallyTimeSpent" value="12523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24200426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.49946696" visible="true" weight="0.3939064" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3295099" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295099" />
+      <window_info anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.49946696" weight="0.48175183" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3295099" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -526,7 +961,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.104477614" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="SciView" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -564,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-springcloud.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -599,13 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-config-server/src/main/java/com/tuxiaoer/shanghai/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -616,32 +1037,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/butler-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-system-server/butler-system-server.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/butler-app/src/main/java/com/tuxiaoer/shanghai/modules/system/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -650,27 +1050,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -688,17 +1067,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/static/ckeditor/CHANGES.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="466" column="138" selection-start-line="466" selection-start-column="138" selection-end-line="466" selection-end-column="138" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/butler-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>

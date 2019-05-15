@@ -1,7 +1,0 @@
-com\tuxiaoer\shanghai\modules\system\service\impl\MenuServiceImpl.class
-com\tuxiaoer\shanghai\modules\system\web\UserController.class
-com\tuxiaoer\shanghai\modules\system\service\impl\UserServiceImpl.class
-com\tuxiaoer\shanghai\modules\system\web\MenuController.class
-com\tuxiaoer\shanghai\SystemServerApplication.class
-com\tuxiaoer\shanghai\modules\system\web\RoleController.class
-com\tuxiaoer\shanghai\modules\system\service\impl\RoleServiceImpl.class

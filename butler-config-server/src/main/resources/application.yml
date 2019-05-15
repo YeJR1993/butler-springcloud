@@ -1,5 +1,5 @@
 server:
-    port: 8301
+    port: 8082
 
 # 服务与服务之间相互调用一般都是根据这个name 。
 spring:

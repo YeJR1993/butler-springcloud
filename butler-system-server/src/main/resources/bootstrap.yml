@@ -6,7 +6,7 @@ spring:
             # 启动什么环境下的配置
             profile: dev
             # 配置服务的URL
-            uri: http://127.0.0.1:8301/
+            uri: http://127.0.0.1:8082/
             # 对应前配置文件的git分支
             label: master
             # 对应前配置文件中的{application}部分

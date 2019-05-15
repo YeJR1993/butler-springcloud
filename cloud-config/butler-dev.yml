@@ -4,7 +4,7 @@ eureka:
     client:
         # 注册中心地址
         service-url:
-            defaultZone: http://127.0.0.1:8761/eureka/
+            defaultZone: http://127.0.0.1:8081/eureka/
 
 #ribbon的超时时间
 ribbon:

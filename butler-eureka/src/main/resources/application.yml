@@ -1,5 +1,5 @@
 server:
-    port: 8761
+    port: 8081
 
 spring:
     application:
@@ -14,4 +14,4 @@ eureka:
         #如果为true，启动时报警.
         fetch-registry: false
         service-url:
-            defaultZone: http://127.0.0.1:8761/eureka/
+            defaultZone: http://127.0.0.1:8081/eureka/
