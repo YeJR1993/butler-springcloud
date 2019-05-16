@@ -5,9 +5,24 @@ spring:
         config:
             # 启动什么环境下的配置
             profile: dev
-            # 配置服务的URL
-            uri: http://127.0.0.1:8082/
             # 对应前配置文件的git分支
             label: master
             # 对应前配置文件中的{application}部分
             name: butler
+            # 配置服务的URL【如果使用eureka，则不再写URL，使用下面的discovery的形式】
+            # uri: http://127.0.0.1:8082/
+            discovery:
+                enabled: true
+                # 指定配置中心的服务名称
+                service-id: config-server
+
+eureka:
+    instance:
+        hostname: 127.0.0.1
+        # 心跳检测检测与续约时间
+        lease-renewal-interval-in-seconds: 3   # 每间隔1s，向服务端发送一次心跳，证明自己依然”存活“
+        lease-expiration-duration-in-seconds: 5 #告诉服务端，如果我2s之内没有给你发心跳，就代表我“死”了，将我踢出掉。
+    client:
+        # 注册中心地址
+        service-url:
+            defaultZone: http://127.0.0.1:8081/eureka/

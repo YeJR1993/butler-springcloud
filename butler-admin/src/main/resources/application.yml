@@ -33,6 +33,15 @@ spring:
                 # # 连接池中的最小空闲连接
                 min-idle: 0
 
+#ribbon的超时时间
+ribbon:
+    ReadTimeout: 30000
+    ConnectTimeout: 30000
+
+# 开启断路器
+feign:
+    hystrix:
+        enabled: true
 
 # shiro 配置
 shiro:

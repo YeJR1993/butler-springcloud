@@ -28,3 +28,29 @@ spring:
                 max-idle: 8
                 # # 连接池中的最小空闲连接
                 min-idle: 0
+
+#ribbon的超时时间
+ribbon:
+    ReadTimeout: 30000
+    ConnectTimeout: 30000
+
+# 开启断路器
+feign:
+    hystrix:
+        enabled: true
+
+# 手动刷新配置
+management:
+    endpoints:
+        web:
+            # 用于指定actuator的URL路径
+            base-path: /actuator
+            # 指定监控项。默认开启了health、info。这里加入了refresh
+            exposure:
+                include: refresh,health,info
+    endpoint:
+        health:
+            # 用于展示监控项详细信息，默认不展示
+            show-details: always
+    server: # 指定actuator端口。如果不指定则与系统服务端口一致。建议修改
+        port: 8888

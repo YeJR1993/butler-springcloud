@@ -5,6 +5,7 @@ import com.tuxiaoer.shanghai.common.utils.Result;
 import com.tuxiaoer.shanghai.modules.system.entity.User;
 import com.tuxiaoer.shanghai.modules.system.feignclient.UserFeignService;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,8 +18,12 @@ import java.util.List;
  * @date ：2019/4/26 11:42
  * @description：
  */
+@RefreshScope
 @RestController
 public class UserController {
+
+    @Value("${name}")
+    private String name;
 
     @Resource
     private UserFeignService userFeignService;
@@ -26,6 +31,11 @@ public class UserController {
     @RequestMapping("/hello")
     public List<User> index(String username) {
         return userFeignService.userPageList(username, 10000, 2).getData().getList();
+    }
+
+    @RequestMapping("/name")
+    public String getName() {
+        return name;
     }
 
 }

@@ -3,6 +3,7 @@ package com.tuxiaoer.shanghai;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author ：YeJR
@@ -10,6 +11,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * @date ：2019/5/10 15:40
  * @description：
  */
+@EnableEurekaClient
 @EnableConfigServer
 @SpringBootApplication
 public class ConfigServerApplication {
