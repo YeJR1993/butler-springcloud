@@ -39,19 +39,3 @@ ribbon:
 feign:
     hystrix:
         enabled: true
-
-# 手动刷新配置, POST http://127.0.0.1:18085/actuator/refresh 手动提交刷新
-management:
-    endpoints:
-        web:
-            # 用于指定actuator的URL路径 默认 /actuator
-            # base-path: /actuator
-            # 指定监控项。默认开启了health、info。这里加入了refresh
-            exposure:
-                include: bus-refresh,health,info # 2.X 版本的配置方式。默认只有health,info，这里需要将refresh添加上【手动刷新使用的是refresh，使用消息总线则是bus-refresh】
-    endpoint:
-        health:
-            # 用于展示监控项详细信息，默认不展示
-            show-details: always
-    server: # 指定actuator端口。如果不指定则与系统服务端口一致。建议修改
-        port: 18085

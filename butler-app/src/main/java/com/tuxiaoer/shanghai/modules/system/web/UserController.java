@@ -18,12 +18,8 @@ import java.util.List;
  * @date ：2019/4/26 11:42
  * @description：
  */
-@RefreshScope
 @RestController
 public class UserController {
-
-    @Value("${name}")
-    private String name;
 
     @Resource
     private UserFeignService userFeignService;
@@ -33,9 +29,5 @@ public class UserController {
         return userFeignService.userPageList(username, 10000, 2).getData().getList();
     }
 
-    @RequestMapping("/name")
-    public String getName() {
-        return name;
-    }
 
 }

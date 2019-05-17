@@ -28,12 +28,12 @@
             <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
 
-        <!-- 监控和管理生产环境的模块 -->
+        <!-- spring cloud config 刷新 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
+        <!-- spring cloud config rabbit 刷新 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
