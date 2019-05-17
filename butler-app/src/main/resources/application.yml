@@ -29,6 +29,7 @@ spring:
                 # # 连接池中的最小空闲连接
                 min-idle: 0
 
+
 #ribbon的超时时间
 ribbon:
     ReadTimeout: 30000
@@ -47,7 +48,7 @@ management:
             # base-path: /actuator
             # 指定监控项。默认开启了health、info。这里加入了refresh
             exposure:
-                include: refresh,health,info
+                include: bus-refresh,health,info # 2.X 版本的配置方式。默认只有health,info，这里需要将refresh添加上【手动刷新使用的是refresh，使用消息总线则是bus-refresh】
     endpoint:
         health:
             # 用于展示监控项详细信息，默认不展示
