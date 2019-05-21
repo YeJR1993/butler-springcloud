@@ -7,11 +7,13 @@ spring:
 
 eureka:
     instance:
-        hostname: 127.0.0.1
+        hostname: 192.168.114.26
+        ip-address: 192.168.114.26
+        prefer-ip-address: true
     client:
         # 防止注册中心自我注册
         register-with-eureka: false
         #如果为true，启动时报警.
         fetch-registry: false
         service-url:
-            defaultZone: http://127.0.0.1:8081/eureka/
+            defaultZone: http://192.168.114.26:8081/eureka/

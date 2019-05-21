@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="butler-config-server" />
         <module name="butler-app" />
+        <module name="butler-gateway" />
         <module name="butler-common" />
         <module name="butler-system-server" />
         <module name="butler-admin" />
@@ -20,6 +21,7 @@
       <module name="butler-common" target="1.8" />
       <module name="butler-config-server" target="1.8" />
       <module name="butler-eureka" target="1.8" />
+      <module name="butler-gateway" target="1.8" />
       <module name="butler-springcloud" target="1.8" />
       <module name="butler-system-server" target="1.8" />
     </bytecodeTargetLevel>
