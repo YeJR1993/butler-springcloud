@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aba5fe5-665a-4230-a185-896c818c1f04" name="Default Changelist" comment="spring config 手动刷新">
+    <list default="true" id="2aba5fe5-665a-4230-a185-896c818c1f04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-admin/butler-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-admin/butler-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-admin/src/test/java/com/tuxiaoer/shanghai/AdminApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/butler-system-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-system-server/butler-system-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,44 +26,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="24" column="76" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,7 +85,6 @@
         <option value="$PROJECT_DIR$/cloud-config/butler-dev.yml" />
         <option value="$PROJECT_DIR$/butler-config-server/src/main/java/com/tuxiaoer/shanghai/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/butler-admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/butler-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/butler-config-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/butler-app/src/main/resources/application.yml" />
@@ -137,8 +100,10 @@
         <option value="$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/butler-system-server/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/butler-admin/src/test/java/com/tuxiaoer/shanghai/AdminApplicationTest.java" />
         <option value="$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/butler-admin/src/test/java/com/tuxiaoer/shanghai/AdminApplicationTest.java" />
+        <option value="$PROJECT_DIR$/butler-system-server/src/test/java/com/tuxiaoer/shanghai/SystemServerApplicationTest.java" />
+        <option value="$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -171,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,42 +143,12 @@
               <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="butler-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="butler-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="butler-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +160,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/butler-config-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/butler-system-server/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -236,6 +170,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyWorkerspace\butler-springcloud\butler-system-server\src" />
       <recent name="D:\MyWorkerspace\butler-springcloud\butler-config-server\src\main\resources" />
       <recent name="D:\MyWorkerspace\butler-springcloud\butler-admin\src\main\resources" />
       <recent name="D:\MyWorkerspace\butler-springcloud\butler-app\src\main\resources" />
@@ -259,7 +194,41 @@
     </option>
     <option name="contentProportion" value="0.18831168" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="JUnit.SystemServerApplicationTest.test">
+    <configuration name="AdminApplicationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="butler-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuxiaoer.shanghai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuxiaoer.shanghai" />
+      <option name="MAIN_CLASS_NAME" value="com.tuxiaoer.shanghai.AdminApplicationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServerApplicationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="butler-system-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuxiaoer.shanghai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuxiaoer.shanghai" />
+      <option name="MAIN_CLASS_NAME" value="com.tuxiaoer.shanghai.SystemServerApplicationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Xms128m -Xmx1024m -XX:MaxPermSize=512m" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="butler-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tuxiaoer.shanghai.AdminApplication" />
@@ -314,9 +283,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.AdminApplicationTest.test" />
+      <item itemvalue="JUnit.SystemServerApplicationTest.test" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.AppApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.SystemServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SystemServerApplicationTest.test" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="JUnit.AdminApplicationTest.test" />
         <item itemvalue="Spring Boot.GatewayApplication" />
       </list>
     </recent_temporary>
@@ -360,7 +341,15 @@
       <workItem from="1558423290978" duration="314000" />
       <workItem from="1558682681846" duration="72000" />
       <workItem from="1558949052703" duration="3000" />
-      <workItem from="1559027325383" duration="1424000" />
+      <workItem from="1559027325383" duration="3357000" />
+      <workItem from="1559031050430" duration="985000" />
+      <workItem from="1559200835544" duration="5000" />
+      <workItem from="1559264929198" duration="8000" />
+      <workItem from="1559284818472" duration="7000" />
+      <workItem from="1559286981131" duration="2000" />
+      <workItem from="1559290144188" duration="6000" />
+      <workItem from="1559789660687" duration="187000" />
+      <workItem from="1560494546715" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="config server">
       <created>1557474246342</created>
@@ -397,11 +386,44 @@
       <option name="project" value="LOCAL" />
       <updated>1557978107270</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改注册中心配置">
+      <created>1559028861248</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559028861248</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AdminApplicationTest_test - 2019.05.28 at 15h 37m 30s.xml">
+      <configuration name="AdminApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminApplicationTest_test - 2019.05.28 at 15h 38m 18s.xml">
+      <configuration name="AdminApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminApplicationTest_test - 2019.05.28 at 15h 59m 59s.xml">
+      <configuration name="AdminApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemServerApplicationTest_test - 2019.05.28 at 16h 03m 29s.xml">
+      <configuration name="SystemServerApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemServerApplicationTest_test - 2019.05.28 at 16h 04m 36s.xml">
+      <configuration name="SystemServerApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemServerApplicationTest_test - 2019.05.28 at 16h 05m 14s.xml">
+      <configuration name="SystemServerApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemServerApplicationTest_test - 2019.05.28 at 16h 07m 28s.xml">
+      <configuration name="SystemServerApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemServerApplicationTest_test - 2019.05.28 at 16h 12m 25s.xml">
+      <configuration name="SystemServerApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32478000" />
+    <option name="totallyTimeSpent" value="35629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,9 +435,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -423,8 +445,8 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295099" />
-      <window_info anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.49946696" visible="true" weight="0.36996734" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3295099" />
+      <window_info anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.49946696" weight="0.4961915" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.31991294" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -471,16 +493,10 @@
     <MESSAGE value="config server" />
     <MESSAGE value="项目端口调整" />
     <MESSAGE value="spring config 手动刷新" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring config 手动刷新" />
+    <MESSAGE value="修改注册中心配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改注册中心配置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/java/com/tuxiaoer/shanghai/SystemServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-common/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/butler-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,9 +531,6 @@
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/static/ckeditor/CHANGES.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -627,13 +640,6 @@
         <state relative-caret-position="-2961" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butler-system-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-gateway/src/main/java/com/tuxiaoer/shanghai/GatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -678,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1869">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -723,30 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/java/com/tuxiaoer/shanghai/common/excel/ExportExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butler-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butler-admin/src/test/java/com/tuxiaoer/shanghai/AdminApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/butler-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -764,7 +739,7 @@
     <entry file="file://$PROJECT_DIR$/butler-admin/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="24" column="76" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="76" />
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -777,8 +752,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/butler-app/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+        <state relative-caret-position="170">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-admin/src/test/java/com/tuxiaoer/shanghai/AdminApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="75" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-system-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-system-server/src/main/java/com/tuxiaoer/shanghai/SystemServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-system-server/src/test/java/com/tuxiaoer/shanghai/SystemServerApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/java/com/tuxiaoer/shanghai/common/excel/ExportExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butler-admin/src/main/java/com/tuxiaoer/shanghai/common/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="246" column="29" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/mgt/RealmSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="85" column="37" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="85" selection-end-column="37" />
         </state>
       </provider>
     </entry>
