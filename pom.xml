@@ -28,7 +28,7 @@
         <lombok.version>1.18.6</lombok.version>
         <pagehelper.version>1.2.10</pagehelper.version>
         <fastjson.version>1.2.56</fastjson.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.7.0</shiro.version>
         <shiro-freemarker.version>1.0.0</shiro-freemarker.version>
         <jasypt.version>2.1.1</jasypt.version>
         <poi.version>4.1.0</poi.version>
